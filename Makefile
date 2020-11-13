@@ -3,7 +3,7 @@
 all: vet build test
 
 vet:
-	go vet ./...
+	go vet
 
 build:
 	go build

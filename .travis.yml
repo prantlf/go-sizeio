@@ -6,4 +6,4 @@ go:
   - "1.14"
 
 script:
-  - go test -v ./internal/...
+  - go test -v

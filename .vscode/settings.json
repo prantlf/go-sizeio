@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "cover.*": true,
+    "echo-server": true,
+    "upload-*": true
+  },
+  "search.exclude": {
+    ".deps": true
+  }
+}

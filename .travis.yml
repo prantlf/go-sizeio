@@ -5,5 +5,8 @@ go:
   - "1.15"
   - "1.14"
 
-script:
-  - go test -v
+notifications:
+  email: false
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/

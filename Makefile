@@ -1,4 +1,4 @@
-.DEFAULT_GOAL = build
+.DEFAULT_GOAL = test
 
 all: vet build test
 

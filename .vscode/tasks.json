@@ -6,7 +6,7 @@
     {
       "label": "build",
       "type": "shell",
-      "command": "make",
+      "command": "make all",
       "problemMatcher": [
         "$go"
       ],
@@ -18,19 +18,13 @@
     {
       "label": "test",
       "type": "shell",
-      "command": "make test",
+      "command": "make",
       "problemMatcher": []
     },
     {
       "label": "clean",
       "type": "shell",
       "command": "make clean",
-      "problemMatcher": []
-    },
-    {
-      "label": "all",
-      "type": "shell",
-      "command": "make all",
       "problemMatcher": []
     }
   ]

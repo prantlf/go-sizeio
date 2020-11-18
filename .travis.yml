@@ -5,8 +5,15 @@ go:
   - "1.15"
   - "1.14"
 
-notifications:
-  email: false
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+
+script:
+  - go build
+
+after_script:
+  - bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email: false

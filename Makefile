@@ -9,7 +9,7 @@ build:
 	go build
 
 test:
-	go test -v
+	go test -race -v
 
 cover:
 	go test -coverprofile cover.txt

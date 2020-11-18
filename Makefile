@@ -12,11 +12,11 @@ test:
 	go test -race -v
 
 cover:
-	go test -coverprofile cover.txt
-	go tool cover -html=cover.txt -o cover.html
+	go test -coverprofile=coverage.txt -covermode=atomic
+	go tool cover -html=coverage.txt -o coverage.html
 
 clean:
 	go clean
-	rm -f cover.*
+	rm -f coverage.*
 
 .PHONY: vet build test cover clean

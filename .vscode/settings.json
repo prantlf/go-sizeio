@@ -3,7 +3,7 @@
     "**/.git": true,
     "**/.DS_Store": true,
     "**/debug.test": true,
-    "cover.*": true,
+    "coverage.*": true,
     "echo-server": true,
     "upload-*": true
   },

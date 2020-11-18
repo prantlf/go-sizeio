@@ -10,7 +10,7 @@ branches:
     - /^v\d+\.\d+\.\d+$/
 
 script:
-  - go build
+  - make build cover
 
 after_script:
   - bash <(curl -s https://codecov.io/bash)

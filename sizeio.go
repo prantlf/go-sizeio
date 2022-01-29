@@ -23,7 +23,7 @@
 //
 // And finally, test a reader and get the size of the reader content:
 //
-//     _, ok := reader.(sizeio.WithSize) // returns true is Size is provided
+//     _, ok := reader.(sizeio.WithSize) // returns true if Size is provided
 //     size := readerWithSize.Size()     // returns 789 as in64
 package sizeio
 
